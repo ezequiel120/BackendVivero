@@ -17,4 +17,6 @@ import lombok.Setter;
 public class Administrador extends Persona{
     @Column(name = "cargo")
     private String cargo;
+    public Administrador(String cargo, String nombre, String apellido, long dni, String password, long telefono, long telefono1, String email) {
+    }
 }

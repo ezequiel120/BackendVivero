@@ -16,5 +16,7 @@ import lombok.Setter;
 public class Cliente extends Persona{
 
     private String sede;
-
+    public Cliente(long telefono, String nombre, String apellido, String email, long dni, String password, String sede) {
+        this.sede=sede;
+    }
 }
